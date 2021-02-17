@@ -1,0 +1,79 @@
+/* 
+Selectores para definir atributos. Pueden ser: 
+- etiqueta html
+- id
+- class
+ */
+
+ body {
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 0px;
+ }
+
+ #header {
+     width: 100%;
+     height: 130px;
+     background-color: #102553;
+     border-bottom: 1px solid #ccc;
+     border-top: 1px solid #ccc;
+
+ }
+
+.center {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.clear{
+    clear: both;
+    float: none;
+}
+
+#logo {
+    width: 40%;
+    font-size: 30px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#logo img{
+    display: block;
+    float: left;
+    height: 100px;
+}
+
+#brand {
+    display: block;
+    color: #f2f2f2;
+    float: left;
+    margin-top: 35px;
+}
+
+#menu {
+    width: 80%;
+    float: right;
+    font-size: 20px;
+}
+
+#menu ul{
+    line-height: 80px;
+    width: 76%;
+    float: right;
+    margin-top: -90px;
+}
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: darkgrey;
+}
